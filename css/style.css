@@ -53,9 +53,11 @@ footer {
     }
 }
 
-@media screen and (min-width: 1025px) {
-    main {
+@media screen and (min-width: 320px) and (max-width: 799px) {  
+    #nav-menu {
+        display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
+        font-size: larger;    
     }
 }
